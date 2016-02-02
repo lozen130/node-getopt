@@ -236,7 +236,7 @@ Getopt Methods:
         set help template to HELP if HELP is not empty.
         bind 'help' option to default action, show help and exit with 0.
 
-    Getpot on(String optionName, Function<Array argv, Object options> action)
+    Getopt on(String optionName, Function<Array argv, Object options> action)
         after parsing, trigger the action if optionName is found.
         the 'this' in action will be the instance of Getopt.
 
